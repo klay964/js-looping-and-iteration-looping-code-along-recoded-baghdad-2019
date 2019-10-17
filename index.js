@@ -1,13 +1,10 @@
-
-function writeCards(arr,e){
-  let arr2=[];
-  for(let i=0;i<arr[i].length;i++){
-   console.log(`"Thank you,${arr[i]}, for the wonderful ${"e"} gift!",)
-   }
-   return arr2;
-    
+function writeCards( a1, event ) {
+  let a2 = []
+  for ( let i = 0; i < a1.length; i++ ) {
+    thankYouCards.push( `Thank you, ${a1[i]}, for the wonderful ${event} gift!` )
   }
-
+  return a2
+}
 
 
 function countdown( countdown ) {
