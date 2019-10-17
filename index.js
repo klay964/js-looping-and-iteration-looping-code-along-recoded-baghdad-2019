@@ -1,13 +1,14 @@
-// Code your solutions in this file
-let arr=["Ada","Brendan","Ali"];
+
 function writeCards(arr,"birthday"){
-  for(let i=0;i<arr.length;i++){
+  let arr2=[];
+  for(let i=0;i<arr[i].length;i++){
    console.log(`"Thank you,${arr[i]}, for the wonderful ${"birthday"} gift!",)
+   return arr2;
     
   }
 
 }
-writeCards(arr,"birthday");
+
 
 function countDown(){
   var n;
