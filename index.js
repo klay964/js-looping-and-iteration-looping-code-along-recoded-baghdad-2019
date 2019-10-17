@@ -9,13 +9,10 @@ function writeCards(arr,"birthday"){
 
 }
 
-
-function countDown(){
-  var n;
-  while (n>0){
-    n--
-    console.log(n-)
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
+    console.log( countdown );
+    countdown -= 1;
   }
-  countDown()
-  
+  console.log( countdown );
 }
