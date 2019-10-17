@@ -1,8 +1,8 @@
 
-function writeCards(arr,"birthday"){
+function writeCards(arr,e){
   let arr2=[];
   for(let i=0;i<arr[i].length;i++){
-   console.log(`"Thank you,${arr[i]}, for the wonderful ${"birthday"} gift!",)
+   console.log(`"Thank you,${arr[i]}, for the wonderful ${"e"} gift!",)
    return arr2;
     
   }
